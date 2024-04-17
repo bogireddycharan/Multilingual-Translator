@@ -1,0 +1,14 @@
+Goal is to Auto Detect the language typed and translate it to a specific language.
+
+For this we are using transformer model Helsinki-NLP/opus-mt-{src}-{trg}
+For example we can give values like '
+>>> src = 'fr'  # source language
+>>> trg = 'en'  # target language
+
+which means our english language given is translated to french
+
+model names use the following format: Helsinki-NLP/opus-mt-{src}-{tgt}
+We can find the codes here https://developers.google.com/admin-sdk/directory/v1/languages
+
+
+
